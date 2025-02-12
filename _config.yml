@@ -5,12 +5,19 @@ url: https://s12f.github.io
 
 defaults:
   - scope:
-      path: "docs"
+      path: "posts"
       type: "pages"
     values:
       layout: "default"
 
 color_scheme: blue_light
+
+math: katex
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
 
 # aux_links:
 #   "GitHub":
