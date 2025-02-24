@@ -1,6 +1,6 @@
 ---
 title: Implement and Verify Google Spanner in TLA+
-nav_parent: Home
+parent: Blog
 ---
 # Implement and Verify Google Spanner in TLA+
 
