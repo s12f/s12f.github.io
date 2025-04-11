@@ -129,7 +129,7 @@ the model checker will take immeasurable time to verify the specification.
 So I abstract the Paxos replication layer as a linearizable key-value storage,
 that makes the implementation of transaction much simpler.
 
-There are many ways to a high-available linearizable key-value storage through replicated state machines (e.g. [Raft](https://raft.github.io/raft.pdf)),
+There are many ways to implement a high-available linearizable key-value storage through replicated state machines (e.g. [Raft](https://raft.github.io/raft.pdf)),
 but which is out of topic of this post.
 
 So in TLA+, the participant is:
