@@ -3,6 +3,9 @@ description: all about compute science
 theme: just-the-docs
 url: https://s12f.github.io
 
+plugins:
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: "posts"
